@@ -153,9 +153,9 @@ The operating system maintains a page table to map virtual pages to physical fra
 Benefits: Paging allows for efficient use of memory, and enables the sharing of code and data among processes. It facilitates simpler and more flexible memory management.
 
 16. Shell Commands in XV6:
- 1. ls: Lists the files in the current directory.
- 2. cd: Changes the current working directory.
- 3. cat: Concatenates and displays the content of files.
+ls: Lists the files in the current directory.
+cd: Changes the current working directory.
+cat: Concatenates and displays the content of files.
 
 17. Essential: Process synchronization is crucial to prevent conflicts and data corruption when multiple processes access shared resources concurrently.
 Mechanisms: XV6 uses mechanisms like locks and semaphores to synchronize access to critical sections of code.
@@ -173,9 +173,9 @@ XV6 implements virtual memory through paging, mapping virtual addresses to physi
 The page table is used to translate virtual addresses to physical addresses, providing isolation and security between processes.
 
 Advantages of Virtual Memory:
-1. Isolation of address space: Each process has its own address space, preventing one process from accessing the memory of another.
-2. Security: Virtual memory provides a level of security by isolating processes.
-3. Flexibility for memory management: The use of virtual memory simplifies memory management and allows for more flexible memory allocation.
+Isolation of address space: Each process has its own address space, preventing one process from accessing the memory of another.
+Security: Virtual memory provides a level of security by isolating processes.
+Flexibility for memory management: The use of virtual memory simplifies memory management and allows for more flexible memory allocation.
 
 20. Boot Process in XV6:
 BIOS/UEFI: The computer's firmware, either BIOS or UEFI, is executed when the computer is powered on.
